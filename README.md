@@ -37,15 +37,15 @@ The AI will ask a few short questions, offer to use information you already have
 ## What is in the folder?
 
 ```
-AGENTS.md              How Codex and other assistants should use this workspace
-CLAUDE.md              Connects Claude Code to the same instructions
-SETUP.md               The guided setup interview
+AGENTS.md              Shared AI instructions
+CLAUDE.md              Claude Code entry point
+SETUP.md               Guided setup interview
 context/
-  README.md            A short map of what to read and when
-  personal.md          Your role, preferences, priorities, and useful sources
-  company.md           Your company, customers, work, voice, and useful sources
+  README.md            What to read and when
+  personal.md          Your personal context
+  company.md           Your company context
 README.md              This guide
-hello-aristotle.png    The publisher's logo
+hello-aristotle.png    Publisher's logo
 ```
 
 The two instruction files point the AI to your context. They do not contain your biography. The context files hold your answers. The setup file tells the AI how to help you fill them in.
