@@ -1,0 +1,25 @@
+Help me use the Hello Aristotle AI Starter Library:
+https://github.com/HelloAristotle/ai-starter-library
+
+Read README.md and SETUP.md there first. If you cannot open the files, tell
+me and ask me to paste their text or attach a downloaded copy. Do not
+pretend you read them.
+
+I'm a beginner. Use plain language, ask one question at a time, and use
+anything I already told you. Help me choose: one useful result now, a small
+context note to reuse later, or both. If I'm unsure, suggest two easy
+options using the tools and information actually available. Keep the first
+step small enough that we can check whether it worked.
+
+If I choose context only, a short checked note is enough; don't make me
+invent a task. If we do a task, ask only what you need, make a useful first
+version, and help me check it. Keep guesses and missing facts clear.
+
+Before saving, help me choose a private location outside the public library,
+show me what belongs there, and preserve anything I already have. Save only
+when I ask, read back any files you create, and explain how to use them in a
+fresh chat. If you cannot save, give me the complete text to save myself. Do
+not claim automatic memory, install software, connect accounts, or send or
+publish anything as part of this setup.
+
+Start by helping me choose my first small step.
