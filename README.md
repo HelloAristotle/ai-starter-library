@@ -1,95 +1,78 @@
-<img src="hello-aristotle.png" width="88" alt="Hello Aristotle logo">
+<img src="hello-aristotle.png" alt="Hello Aristotle" width="80">
 
-# Your AI Starter Library
+# Your AI starter library
 
-**Give your AI a little context. Get one useful thing done.**
+**A simple home for the things you want your AI to know.**
 
-Free prompts, blank templates, and five guided ways to work from [Hello Aristotle](https://helloaristotle.com). Start with a reply, a meeting recap, a small decision, or a short note about your work that you can use again.
+Your role. Your work. How you like things written. The information you keep explaining in every new chat.
 
-You can start in the AI chat you already use. You do not need to code, use a terminal, or make a GitHub account to read or download this library. An AI that can work with local files can also help you keep your own reusable notes.
+This is a small folder you make your own. Start with a short conversation, and your AI helps fill in the blanks. You can use it for your personal life, your company, or both. You do not need to write code or fill out every section.
 
-## Start here: copy this into your AI
+## Start here
 
-Copy the whole box and send it as a message. There is nothing to fill in first. The AI will guide you one question at a time.
+Use an AI app that can read and edit a folder, such as Codex or Claude Code. The folder is your workspace: the place the AI opens to do your work. These files are ordinary text, so you can open and change them too.
+
+**Already have a folder open in your AI app? Copy this message:**
 
 ```text
-Help me use the Hello Aristotle AI Starter Library:
-https://github.com/HelloAristotle/ai-starter-library
+Help me set up my own AI workspace using https://github.com/HelloAristotle/ai-starter-library.
 
-Read README.md and SETUP.md there first. If you cannot open the files, tell
-me and ask me to paste their text or attach a downloaded copy. Do not
-pretend you read them.
+Read its README.md, AGENTS.md, and SETUP.md first. Help me put a copy in a private folder I control. If this folder already has instructions or context, keep them and merge only what is useful; do not replace my files or filled-in answers. Do not publish my copy or push it back to GitHub.
 
-I'm a beginner. Use plain language, ask one question at a time, and use
-anything I already told you. Help me choose: one useful result now, a small
-context note to reuse later, or both. If I'm unsure, suggest two easy
-options using the tools and information actually available. Keep the first
-step small enough that we can check whether it worked.
+Follow SETUP.md and interview me one question at a time. Help me choose personal context, company context, or both. Use what I have already told you. Offer to use relevant documents or tools that are actually available, and help me understand any connection I would need. Ask before accessing a new private source. Never ask for passwords or secret keys in chat.
 
-If I choose context only, a short checked note is enough; don't make me
-invent a task. If we do a task, ask only what you need, make a useful first
-version, and help me check it. Keep guesses and missing facts clear.
-
-Before saving, help me choose a private location outside the public library,
-show me what belongs there, and preserve anything I already have. Save only
-when I ask, read back any files you create, and explain how to use them in a
-fresh chat. If you cannot save, give me the complete text to save myself. Do
-not claim automatic memory, install software, connect accounts, or send or
-publish anything as part of this setup.
-
-Start by helping me choose my first small step.
+Save a short, accurate starting context, show me where it lives, and help me check that a fresh chat can read it. If you cannot open this link or edit files, tell me the simplest next step. Begin with the first unanswered setup question.
 ```
 
-[Open the prompt by itself](SETUP-PROMPT.txt) · [Walk through the steps](START-HERE.md) · [Something isn't working?](TROUBLESHOOTING.md)
+**Prefer to get the folder yourself?**
 
-If your AI cannot open GitHub, open [README.md](https://github.com/HelloAristotle/ai-starter-library/blob/main/README.md) and [SETUP.md](SETUP.md) here and copy their text into the chat. You can also download the library: **Code → Download ZIP**, then unzip it and attach the two files if your AI accepts files. [GitHub's download instructions](https://docs.github.com/en/repositories/working-with-files/using-files/downloading-source-code-archives) explain the buttons.
+1. [Download the folder as a ZIP](https://github.com/HelloAristotle/ai-starter-library/archive/refs/heads/main.zip). A ZIP is a compressed folder. You do not need a GitHub account.
+2. Unzip it and put the folder somewhere you control. You can rename it `My AI Workspace`.
+3. Open that folder as a project in your AI app. Start a new chat there and type **“set up.”**
 
-## Pick the result you want
+The AI will ask a few short questions, offer to use information you already have, and help save your answers. You can say **“skip,” “save what we have,”** or **“go deeper”** at any point.
 
-| What you need | Start with | What you should finish with |
-|---|---|---|
-| "I keep explaining the same things." | [Build a small knowledge base](KNOWLEDGE-BASE-GUIDE.md) | One checked note you can find, correct, and reuse |
-| "I'm not sure what to ask AI." | [Find a useful starting point](METHOD-CONTEXT-INTERVIEW.md) | A small task, the facts it needs, and a first result |
-| "Help me write this." | [Write something useful](METHOD-WRITE.md) | One clear draft in your voice, with facts to check |
-| "What did we agree in that meeting?" | [Turn notes into next steps](METHOD-MEETING-ACTIONS.md) | Decisions, supported actions, and a follow-up draft |
-| "Help me choose between these options." | [Research a small decision](METHOD-RESEARCH-BRIEF.md) | A short comparison with sources and missing facts |
-| "I need to explain what I offer." | [Shape a practical offer](METHOD-OFFER-SHAPE.md) | A clear offer draft with scope and open questions |
+**Keep your filled-in copy private.** This GitHub repository is public. Do not type personal or confidential company information into its web editor or a public fork. Choose a storage location and AI app appropriate for the information you share; a folder name alone does not make it private.
 
-Choose one row. You can come back for the others.
+## What is in the folder?
 
-## Two pieces that work together
+```
+AGENTS.md              How Codex and other assistants should use this workspace
+CLAUDE.md              Connects Claude Code to the same instructions
+SETUP.md               The guided setup interview
+context/
+  README.md            A short map of what to read and when
+  personal.md          Your role, preferences, priorities, and useful sources
+  company.md           Your company, customers, work, voice, and useful sources
+README.md              This guide
+hello-aristotle.png    The publisher's logo
+```
 
-**Context is what the AI needs to know.** Your audience, current work, preferences, and checked facts. Start with the [work template](CONTEXT-COMPANY.md) or [personal template](CONTEXT-PERSONAL.md). Fill your own copy in a private place.
+The two instruction files point the AI to your context. They do not contain your biography. The context files hold your answers. The setup file tells the AI how to help you fill them in.
 
-**A method is how you want the work done.** For example: ask who an email is for, use the supplied facts, write one draft, then check the promises. A method can be reused with new facts. The five method files above each include a ready-to-paste prompt.
+## Use it tomorrow
 
-You can use either piece on its own. Setting up context does not require having a task ready, and trying a method does not require building a knowledge base first.
+Start a new chat **in the same workspace** and ask:
 
-## What a good first finish looks like
+> Read the relevant files in context/. Tell me three things you know from them and which file each came from.
 
-- You have one useful draft or a short, accurate context note.
-- You can point to the information it used and spot anything still unknown.
-- If you saved a file, you can open it yourself and see what it contains.
-- You know what to paste, attach, or ask the AI to read next time.
+Then ask for something small you already need: a reply, a short plan, or a clearer explanation. The AI should use the relevant context and ask about missing details.
 
-Try the [fictional example](EXAMPLES.md), then use [Use it again](USE-AGAIN.md) in a fresh chat. That is a better check than the AI simply saying it will remember.
+When something changes, say **“update my context”** and explain the change. To continue the interview later, say **“continue setup.”** A new chat can resume from saved answers, so say **“save what we have”** before leaving an unfinished interview. To add more depth, say **“go deeper with my setup.”**
 
-## Keep your own information in your own workspace
+You can edit the files yourself, too. Keep facts in one place, link to source documents when useful, and only add another context file when a topic needs its own home. [The context map](context/README.md) explains how.
 
-This GitHub repository is public. Keep filled-in notes, resumes, customer details, and company records in your own appropriate private location. A folder name does not make information private. Share only what you are allowed to use in your chosen AI tool. The library works with pasted text; email access or other connected accounts are optional and unnecessary for the first exercise.
+## If you get stuck
 
-## Explore when you're ready
+- **The AI ignores “set up”:** say “Read AGENTS.md and SETUP.md in this folder, then help me set up.” If you just added them, start a new chat in that folder.
+- **The AI cannot read the website:** download the ZIP and open the folder yourself.
+- **Your app cannot open folders:** attach or paste the relevant context file into a chat. You can still use the information, but you will need to save changes yourself and supply it again when needed.
+- **You already have a setup:** ask the AI to compare the files and merge useful parts. Keep your current instructions and answers. Do the same when updating this starter later.
 
-- [Step-by-step setup](START-HERE.md) and [AI setup instructions](SETUP.md)
-- [Build and maintain a knowledge base](KNOWLEDGE-BASE-GUIDE.md)
-- [Save a method that sounds like you](PERSONALIZE-A-METHOD.md)
-- [Try it again in a fresh chat](USE-AGAIN.md)
-- [Fix common problems](TROUBLESHOOTING.md)
-- [For someone guiding a beginner](FOR-TEACHERS.md)
-- [About this library and using it](ABOUT.md)
+Folder access and account connections depend on your app. See the official [Codex project guide](https://learn.chatgpt.com/docs/projects), [Codex instruction guide](https://learn.chatgpt.com/docs/agent-configuration/agents-md), and [Claude Code context guide](https://code.claude.com/docs/en/memory) if you need app-specific help.
 
-## Want a hand with your real work?
+---
 
-Hello Aristotle helps people and teams learn AI by doing work that matters to them. [Explore hands-on guidance](https://helloaristotle.com) when you want help choosing a workflow or making it useful across your team.
+Made by [Hello Aristotle](https://helloaristotle.com). We help people and teams use AI in their real work. Want help building on your starting folder? [Work with us](https://helloaristotle.com).
 
-*Public edition 0.3.0 · Updated October 13, 2026. App features vary; see the current official guides in [Start here](START-HERE.md).*
+Free to use and adapt for your own work. The Hello Aristotle name and logo identify the publisher; they do not imply endorsement of adaptations. For republication questions, contact us through our website.
